@@ -1,0 +1,162 @@
+.style-options {
+    cursor: auto !important;
+    inline-size: 200px;
+    block-size: 100%;
+    position: fixed;
+    inset-inline-end: -200px;
+    color: #fff;
+    inset-block-start: 0;
+    background-color: #24272a;
+    border-inline-start: 1px solid #13191b;
+    z-index: 1000;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.style-options:before {
+    content: 'Trail';
+    position: relative;
+    display: block;
+    inline-size: 100%;
+    inset-block-start: 0;
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 14px 0;
+    background: #1d1f22;
+}
+
+.style-options.active {
+    inset-inline-end: 0;
+}
+
+.style-options .toggle-btn {
+    position: absolute;
+    display: flex;
+    inset-block-start: 25%;
+    inset-inline-start: -40px;
+    block-size: 40px;
+    inline-size: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #24272a;
+    border-radius: 10px 0 0 10px;
+    cursor: pointer;
+}
+
+.style-options .toggle-btn span {
+    margin: 0;
+    margin: 0 auto;
+}
+
+.style-options .toggle-btn span svg {
+    margin-block-start: 4px;
+    -webkit-animation-name: settings;
+    animation-name: settings;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    color: #fff;
+}
+.style-options .toggle-btn span svg g [fill]{
+    fill: #fff;
+}
+
+.style-options .style-menu {
+    text-align: center;
+    padding: 0;
+}
+
+.style-options .style-menu h4 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.style-options .style-menu ul {
+    background: rgba(0, 0, 0, .2);
+}
+
+.style-options .style-menu h4 {
+    padding: 0 20px;
+}
+
+.style-options .style-menu ul li {
+    display: inline-block;
+    padding: 5px 0;
+    inline-size: 48%;
+    line-height: 34px;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+.style-options .style-menu ul li a {
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer !important;
+}
+
+.style-options .style-menu ul li a:hover {
+    color: #8e8e8e;
+}
+
+.style-options .style-menu ul li a svg g [fill] {
+    fill: #fff;
+}
+
+.style-options .style-menu ul li svg {
+    margin-inline-end: 5px;
+}
+
+.style-options .style-menu .style-color ul {
+    margin-block-start: 15px;
+    background: #1d1f22;
+    padding: 15px 15px;
+}
+
+.style-options .style-menu .style-color ul li {
+    display: inline-block;
+    inline-size: auto;
+    line-height: 0;
+}
+
+.style-options .style-menu .style-color ul li a {
+    inline-size: 40px;
+    block-size: 40px;
+	-webkit-border-radius: 50%;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+@-webkit-keyframes settings {
+    0% {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes settings {
+    0% {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+}
