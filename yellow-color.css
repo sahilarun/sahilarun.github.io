@@ -1,0 +1,78 @@
+a:hover, 
+a:focus,
+.page-2 .loc,
+blockquote span,
+.page-2 .desc-icon p,
+.page-2 .service-item i,
+.page-2 .work-process h4 i,
+.page-5 .contact-info .info i,
+.page-1 .social ul li i:hover,
+.blog-list .side-left .news p,
+.page-2 .testimonial-item span,
+.page-2 .work-process .wp-step,
+.ajax-portfolio .popup-close i,
+.blog-page .blog-comments ul li .comment-text span,
+.page-3 .portfolio-items .item figure figcaption p i,
+.blog-list .side-left .search .input-group .input-group-text {
+	color: #eae328 !important;
+}
+
+svg g [fill] {
+	fill: #eae328;
+}
+
+.menu-item:after {
+	background: linear-gradient(#eae328 0, #eae328 3px, transparent 3px, transparent 8px, #eae328 8px, #eae328 11px, transparent 11px, transparent 16px, #eae328 16px, #eae328 100%);
+}
+
+.btn-st:before,
+.page-2 .work-process .dots,
+.page-3 .portfolio-filter ul li.active,
+.page-2 .skill-item .progress .progress-bar {
+	background-color: #eae328 !important;
+}
+
+.page-2 .skill-item .progress .progress-bar:after {
+    border: 3px solid #eae328 !important;
+}
+
+.blog-list .pagination li a:hover {
+	    border: 1px solid #eae328;
+}
+
+.blog-list .side-left .archives ul li:before,
+.blog-list .side-left .categories ul li:before {
+    border: 2px solid #eae328;
+}
+
+.blog-list .side-left .categories ul li:hover:before,
+.blog-list .side-left .archives ul li:hover:before {
+	border: 4px solid #00a3e1 !important;
+	-webkit-box-shadow: 0 0 5px 0px #eae328 !important;
+			box-shadow: 0 0 5px 0px #eae328 !important;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus,
+.page-1 .lang ul li a.active {
+	border-bottom: 1px solid #eae328 !important;
+}
+
+.bg-lines .bg-line::after {
+	background: linear-gradient(to bottom, rgba(37, 202, 127, 0) 0%, #eae328 75%, #eae328 100%) !important;
+}
+
+@media screen and (max-width: 991px) {
+    .single-wp.process-1,
+    .single-wp.process-3,
+    .single-wp.process-5 {
+    	text-align: right;
+        border-right: 1px solid #eae328;
+    }
+    .single-wp.process-2,
+    .single-wp.process-4,
+    .single-wp.process-6 {
+    	text-align: left;
+    	border-left: 1px solid #eae328;
+    }
+}

@@ -1,0 +1,170 @@
+/* Box */
+.ac:before {
+	content: '';
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	border-left: 25px solid transparent;
+	z-index: 1;
+}
+
+.ac:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-right: 25px solid transparent;
+	z-index: 1;
+}
+
+/* Photo */
+.page-2  .photo:before {
+	content: '';
+	position: absolute;
+	right: 37px;
+	bottom: 0;
+	border-left: 25px solid transparent;
+	z-index: 1;
+}
+
+.page-2 .photo:after {
+	content: '';
+	position: absolute;
+	left: 38px;
+	top: 0;
+	border-right: 25px solid transparent;
+	z-index: 1;
+}
+
+/* Portfolio */
+.page-3 .portfolio-filter ul:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-right: 35px solid transparent;
+	z-index: 1;
+}
+
+.page-3 .portfolio-filter ul:before {
+	content: '';
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	border-left: 35px solid transparent;
+	z-index: 1;
+}
+
+/* Blog */
+.page-4 .blog figure:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-right: 25px solid transparent;
+	z-index: 2;
+}
+
+.page-4 .blog .btn:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	border-left: 25px solid transparent;
+	z-index: 2;
+}
+
+/* Blockquote */
+blockquote:before {
+	content: '';
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	border-left: 25px solid transparent;
+	z-index: 1;
+}
+
+blockquote:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-right: 25px solid transparent;
+	z-index: 1;
+}
+
+/* Blog Comments */
+.blog-page .blog-comments ul li ul:before {
+	content: '';
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	border-left: 25px solid transparent;
+	z-index: 1;
+}
+
+.blog-page .blog-comments ul li ul:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-right: 25px solid transparent;
+	z-index: 1;
+}
+
+/* Blog Post */
+.blog-list .blog-post:before {
+	content: '';
+	position: absolute;
+	right: 0;
+	bottom: 50px;
+	border-left: 25px solid transparent;
+	z-index: 1;
+}
+
+.blog-list .blog-post:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-right: 25px solid transparent;
+	z-index: 1;
+}
+
+/* Side Left */
+.blog-list .side-left:before {
+	content: '';
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	border-left: 25px solid transparent;
+	z-index: 1;
+}
+
+.blog-list .side-left:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-right: 25px solid transparent;
+	z-index: 1;
+}
+
+/* Side Left - Button */
+.blog-list .side-left .tags ul li a:before {
+	content: '';
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	border-left: 10px solid transparent;
+	z-index: 1;
+}
+
+.blog-list .side-left .tags ul li a:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-right: 10px solid transparent;
+	z-index: 1;
+}

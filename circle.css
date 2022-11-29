@@ -1,0 +1,57 @@
+.ac,
+blockquote,
+.blog-list .side-left,
+.page-2 .info-icon svg,
+.page-4 .blog .blog-item,
+.page-5 .contact-info .info i,
+.ajax-portfolio .single-work img,
+.blog-page .blog-comments ul li ul,
+.page-3 .portfolio-items .item figure {
+	-webkit-border-radius: 10px;
+			border-radius: 10px;
+}
+
+.page-3 .portfolio-filter ul,
+.blog-list .side-left .tags ul li a,
+.page-3 .portfolio-filter ul li.active {
+	-webkit-border-radius: 30px;
+			border-radius: 30px;
+}
+
+.page-2 img,
+.page-2 .next,
+.page-2 .prev {
+	-webkit-border-radius: 50%;
+			border-radius: 50%;
+}
+
+.blog-list .blog-post .main .detalis {
+	-webkit-border-radius: 0 0 10px 10px;
+			border-radius: 0 0 10px 10px;
+}
+
+.blog-list .blog-post .main .thumbnail {
+    -webkit-border-radius: 10px 10px 0 0;
+    		border-radius: 10px 10px 0 0;
+}
+
+.ac:after,
+.ac:before,
+blockquote:after,
+blockquote:before,
+.page-2 .photo:after,
+.page-2  .photo:before,
+.page-4 .blog .btn:after,
+.page-4 .blog figure:after,
+.blog-list .side-left:after,
+.blog-list .blog-post:before,
+.blog-list .side-left:before,
+.blog-list .blog-post:after,
+.page-3 .portfolio-filter ul:after,
+.page-3 .portfolio-filter ul:before,
+.blog-page .blog-comments ul li ul:after,
+.blog-list .side-left .tags ul li a:after,
+.blog-page .blog-comments ul li ul:before,
+.blog-list .side-left .tags ul li a:before {
+	display: none;
+}
